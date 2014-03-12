@@ -8,11 +8,12 @@ public class TestOneToMany {
 	
 	
 	public static void main(String[] args) {
-		while(true){
-		  int i =0;
-		  if(i == 10) break;
-		  i++;
+
+		int m = 5;
+		for(int k =0;k<m;m++){
+			System.out.println("Hello World!!!");
 		}
+
 	}
 
 }
