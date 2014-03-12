@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="hibernate.PO.Book" table="book" >
+    
+        <id name="bid" type="string" unsaved-value="null">
+            <column name="bid" sql-type="char(32)" not-null="true"/>
+              <generator class="uuid.hex"/>
+        </id>
+        
+        <property name="bname"> 
+            <column name="bname" sql-type="varchar(16)" not-null="true"/> 
+        </property>
+        
+        <property name="bprice"> 
+            <column name="bprice" sql-type="varchar(16)" not-null="true"/> 
+        </property>
+              
+    </class>
+    
+</hibernate-mapping>
