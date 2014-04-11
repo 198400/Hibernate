@@ -34,6 +34,7 @@ public class LoginServlet extends HttpServlet {
 			throws ServletException, IOException {
 		
 			System.out.println("-----------------goto doGetMethond---------------------------");
+			System.out.println("hello world");
 			/*
 			 * request.getRequestDispatcher("/jsp/pageNoteServlet").forward(request,
 					response);
