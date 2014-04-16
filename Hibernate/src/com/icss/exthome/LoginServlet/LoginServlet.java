@@ -33,15 +33,13 @@ public class LoginServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		
-<<<<<<< HEAD
+<<<<<<< HEAD  who am i
 
 			System.out.println("-----------------goto doGetMethond---------------------------");
 			System.out.println("hello world");
 			System.out.println("--------gagag---------gotogagagagag doGetMethond---------------------------");
 
-=======
-			System.out.println("-dagd-------g323ag---------gsssssssssss doGetMethond---------------------------");
->>>>>>> 61e7b4ca5a131c2e23723e4c1cb26d062496e492
+
 			/*
 			 * request.getRequestDispatcher("/jsp/pageNoteServlet").forward(request,
 					response);
