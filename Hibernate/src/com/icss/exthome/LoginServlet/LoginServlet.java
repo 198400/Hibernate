@@ -137,7 +137,7 @@ public class LoginServlet extends HttpServlet {
 		
 	}
 	
-	private void addPersonToEvent(Long personId,Long eventId){
+	private void addPersonToEvent(double personId,int eventId){
 		
 		Session session = HibernateUtil.currentSession();
 		
