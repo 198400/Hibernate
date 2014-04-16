@@ -33,7 +33,7 @@ public class LoginServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		
-<<<<<<< HEAD  who am i
+<<<<<<< HEAD  who am i  hello workd
 
 			System.out.println("-----------------goto doGetMethond---------------------------");
 			System.out.println("hello world");
